@@ -44,7 +44,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  width: 1158px;
+ max-width: 1158px;
 }
 .heder-navigation-container {
   display: flex;
@@ -196,7 +196,7 @@ img {
 .advantages {
   padding: 120px 0;
 }
-.container.advantages-container {
+ .container .advantages-container{
   margin: 0 auto;
 }
 .visually-hidden {
@@ -726,3 +726,15 @@ img {
 .form-contacts-button:focus {
   background: var(--OCEAN, #404bbf);
 }
+
+
+@media(min-width:320px) and (max-width:768px){
+  .advantages-item-name{
+    font-size: 36px;
+  }
+    .advantages-list{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+  }
+@media(max-width:1158px){}
