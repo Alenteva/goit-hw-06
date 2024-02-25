@@ -516,7 +516,7 @@ img {
   color: var(--WHITE, #fff);
   text-align: center;
   cursor: pointer;
-  /* Button Text */
+  /* Button Text  */
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -543,10 +543,16 @@ img {
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* скрыть окно*/
+  /* скрить окно */
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+/* открить окно  */
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .form-contacts {
@@ -917,6 +923,12 @@ img {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+  }
+  /* открыть моб.меню */
+  .is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
   }
 
   .menu-contacts-link {
