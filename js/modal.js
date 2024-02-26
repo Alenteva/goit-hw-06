@@ -1,3 +1,5 @@
+"use strict";
+
 const formContainer = document.querySelector(".form-container");
 const sectionOneButton = document.querySelector(".section-one-button");
 const closeButton = document.querySelector(".close-button");

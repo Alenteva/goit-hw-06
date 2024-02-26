@@ -1,3 +1,5 @@
+"use strict";
+
 const mobMenu = document.querySelector(".container-heder-mob-menu");
 const buttonOpenMobMenu = document.querySelector(".heder-icon-menu");
 const buttonCloseMobMenu = document.querySelector(".close-menu");
